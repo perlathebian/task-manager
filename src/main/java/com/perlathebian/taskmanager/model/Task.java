@@ -11,9 +11,13 @@ public class Task {
 
     private String title;
     private String description;
+
+    @Temporal(TemporalType.TIMESTAMP) // To store the date with time in the database
     private Date dueDate;
     private String category;
     private String status;
+
+    public Task() {}
 
     // Getters and setters
     public Long getId(){
