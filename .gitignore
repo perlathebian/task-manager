@@ -7,6 +7,7 @@ target/
 *.log
 .idea/
 .settings/
+application.properties
 
 
 ### STS ###
